@@ -42,14 +42,14 @@
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema_3/img_2.svg' alt='AvatarTop')
-          .tarjeta.bg_d
+          .tarjeta.bg_d.tarjeta01 
             .p-4
               p Los datos están siempre disponibles ya que son obtenidos gracias a un monitoreo permanente.
 
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-down")
         .tarjeta-avatar
           img(src='@/assets/curso/tema_3/img_3.svg' alt='AvatarTop')
-          .tarjeta.bg_d
+          .tarjeta.bg_d.tarjeta01 
             .p-4
               p Se basan en cálculos de datos que provienen del monitoreo permanente, pero necesitan datos adicionales ya que los datos pueden estar total o parcialmente disponibles.
 
@@ -57,7 +57,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema_3/img_4.svg' alt='AvatarTop')
-          .tarjeta.bg_d
+          .tarjeta.bg_d.tarjeta01 
             .p-4
               ul.lista-ul--color
                 li 
