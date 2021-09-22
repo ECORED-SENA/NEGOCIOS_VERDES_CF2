@@ -15,7 +15,7 @@
         p.mb-0 El ciclo PHVA se considera uno de los mejores sistemas para lograr la mejora continua de las organizaciones porque permite de manera ordenada y sistemática Planificar, Hacer, Verificar y Actuar frente a cada una de las acciones establecidas. 
 
     .row.justify-content-center.mb-5(data-aos="slide-right")
-      .col-lg-10.bor3.p-3
+      .col-lg-6.bor3.p-3
         p.text-center.mb-0 A continuación se describe cada una de sus etapas: 
 
     figure.mb-5(data-aos="zoom-in-down")
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'Tema6',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),

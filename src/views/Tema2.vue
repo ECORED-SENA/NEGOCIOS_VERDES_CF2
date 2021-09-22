@@ -12,7 +12,7 @@
 
     .row.p-5.justify-content-center(data-aos="zoom-in-down")
       .col-lg-10.bg02.p-4
-        p.mb-0 La ley 99 de 1993 creó el Sistema Nacional Ambiental (SINA), que se define como el conjunto de orientaciones, normas, actividades, recursos, programas e instituciones que permiten la puesta en marcha de los principios generales ambientales contenidos en la Constitución Política de Colombia de 1991 y la ley 99 de 1993. 
+        p.mb-0 La Ley 99 de 1993 creó el Sistema Nacional Ambiental (SINA), que se define como el conjunto de orientaciones, normas, actividades, recursos, programas e instituciones que permiten la puesta en marcha de los principios generales ambientales contenidos en la Constitución Política de Colombia de 1991 y la Ley 99 de 1993. 
 
     p.mb-5(data-aos="zoom-in-down") El SINA está integrado por el Ministerio del Medio Ambiente, las Corporaciones Autónomas Regionales (CAR), las Entidades Territoriales y los Institutos de Investigación adscritos y vinculados al Ministerio, y tiene como propósito asegurar la coordinación intersectorial en el ámbito público de las políticas, planes y programas en materia ambiental y de recursos naturales renovables.
 
@@ -25,11 +25,11 @@
     separador
 
     .titulo-segundo(data-aos="zoom-in")
-      #t_2_1.h2 2.1. Autoridades Ambientales Nacionales 
+      #t_2_1.h2 2.1 Autoridades Ambientales Nacionales 
 
     p.mb-5(data-aos="zoom-in") A continuación se realiza una breve descripción de cada una de las entidades que regulan el cumplimiento de lo dispuesto y por supuesto, la creación de políticas e iniciativas que promuevan el cuidado del medio ambiente a nivel nacional.
 
-    .row.align-items-center.bg-color2.px-5
+    .row.align-items-center.bg-color2.px-5.py-4.back_top
       .col-lg-8.mb-4.mb-lg-0(data-aos="slide-left")
 
         .list.mb-5
@@ -42,12 +42,12 @@
 
         p “El Ministerio de Ambiente y Desarrollo Sostenible es el rector de la gestión del ambiente y de los recursos naturales renovables, encargado de orientar y regular el ordenamiento ambiental del territorio y de definir las políticas y regulaciones a las que se sujetarán la recuperación, conservación, protección, ordenamiento, manejo, uso y aprovechamiento sostenible de los recursos naturales renovables y del ambiente de la nación, a fin de asegurar el desarrollo sostenible, sin perjuicio de las funciones asignadas a otros sectores. 
 
-        p El Ministerio Ambiente y Desarrollo Sostenible formulará, junto con el presidente de la República la política nacional ambiental y de recursos naturales renovables, de manera que se garantice el derecho de todas las personas a gozar de un medio ambiente sano y se proteja el patrimonio natural y la soberanía de la Nación.
+        p El Ministerio de Ambiente y Desarrollo Sostenible formulará, junto con el presidente de la República la política nacional ambiental y de recursos naturales renovables, de manera que se garantice el derecho de todas las personas a gozar de un medio ambiente sano y se proteja el patrimonio natural y la soberanía de la Nación.
       .col-lg-4.mb-4.mb-lg-0(data-aos="slide-right")
         img.img-a(data-aos="slide-right")(src='@/assets/curso/tema_2/img_3.png', alt='')
 
     .cajon.color-primario.p-4.mb-5(data-aos="zoom-in")
-      p Corresponde al Ministerio de Ambiente y Desarrollo Sostenible dirigir el Sistema Nacional Ambiental (SINA), organizado de conformidad con la Ley 99 de 1993, para asegurar la adopción y ejecución de las políticas, planes, programas y proyectos respectivos, en orden a garantizar el cumplimiento de los deberes y derechos del Estado y de los particulares en relación con el ambiente y el patrimonio natural de la Nación”
+      p Corresponde al Ministerio de Ambiente y Desarrollo Sostenible dirigir el Sistema Nacional Ambiental (SINA), organizado de conformidad con la Ley 99 de 1993, para asegurar la adopción y ejecución de las políticas, planes, programas y proyectos respectivos, en orden a garantizar el cumplimiento de los deberes y derechos del Estado y de los particulares en relación con el ambiente y el patrimonio natural de la Nación”.
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-4.mb-lg-0
@@ -58,7 +58,7 @@
             figure
               img.img-a(src='@/assets/curso/tema_2/img_5.png', alt='')
           .col-lg-10.mb-4.mb-lg-0(data-aos="slide-down")
-            p Para conocer en detalle las 19 funciones asignadas al Ministerio consulte el material complementario: Decreto 3571 de 2011. 
+            p.mb-0.mt-2 Para conocer en detalle las 19 funciones asignadas al Ministerio consulte el material complementario: Decreto 3571 de 2011. 
 
         p.mb-5(data-aos="zoom-in-left")  El Ministerio de Ambiente y Desarrollo Sostenible se encarga de definir la política Nacional Ambiental y promover la recuperación, conservación, protección, ordenamiento, manejo, uso y aprovechamiento de los recursos naturales renovables, a fin de asegurar el desarrollo sostenible y garantizar el derecho de todos los ciudadanos a gozar y heredar un ambiente sano.
 
@@ -66,39 +66,39 @@
           .col-lg-10.mb-4.mb-lg-0.bg_d.p-2
             p.mb-0.text-center A continuación se observa el Marco Institucional del Ministerio, el cual define y regula su funcionamiento:  
 
-    .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0(data-aos="slide-right")
+    .row
+      .col-lg-4.mb-4.mb-lg-0.d-flex(data-aos="slide-right")
         img.img-a(src='@/assets/curso/tema_2/img_6.png', alt='')
       .col-lg-8.mb-4.mb-lg-0(data-aos="slide-left")
         .tarjeta.tarjeta--gris.p-4.mb-5
-          LineaTiempoC.color-acento-contenido(text-small)
-            .row.justify-content-center(titulo="1968")
+          LineaTiempoC.color-acento-contenido.mb-0
+            .row.justify-content-center.mb-0(titulo="1968")
               .col-md-10.mb-4.mb-md-0
-                p Se crea el INDERENA con el objetivo de ordenar el manejo de los recursos naturales.
+                p.mb-0 Se crea el INDERENA con el objetivo de ordenar el manejo de los recursos naturales.
             .row.justify-content-center(titulo="1974")
               .col-md-10.mb-4.mb-md-0
-                p Se expide el Código Nacional de los Recursos Naturales, con el fin de prevenir y controlar la contaminación.
+                p.mb-0 Se expide el Código Nacional de los Recursos Naturales, con el fin de prevenir y controlar la contaminación.
             .row.justify-content-center(titulo="1992")
               .col-md-10.mb-4.mb-md-0
-                p Declaración de Río que consagra el concepto de desarrollo sostenible y garantizar la supervivencia del planeta.
+                p.mb-0 Declaración de Río que consagra el concepto de desarrollo sostenible y garantizar la supervivencia del planeta.
             .row.justify-content-center(titulo="1993")
               .col-md-10.mb-4.mb-md-0
-                p Creación del Ministerio del Medio Ambiente mediante la Ley 99 de 1993.
+                p.mb-0 Creación del Ministerio del Medio Ambiente mediante la Ley 99 de 1993.
             .row.justify-content-center(titulo="1994")
               .col-md-10.mb-4.mb-md-0
-                p Decreto 1868 - Estructura del Ministerio.
+                p.mb-0 Decreto 1868 - Estructura del Ministerio.
             .row.justify-content-center(titulo="1996")
               .col-md-10.mb-4.mb-md-0
-                p Decreto Ley 344 - Facultades especiales al presidente de la República.
+                p.mb-0 Decreto Ley 344 - Facultades especiales al presidente de la República.
             .row.justify-content-center(titulo="1997")
               .col-md-10.mb-4.mb-md-0
-                p Decreto 1687 - Por la cual se fusionan unas dependencias en el Ministerio del Medio Ambiente.
+                p.mb-0 Decreto 1687 - Por la cual se fusionan unas dependencias en el Ministerio del Medio Ambiente.
             .row.justify-content-center(titulo="1998")
               .col-md-10.mb-4.mb-md-0
-                p Ley 489 - Facultades extraordinarias al presidente de la República.
+                p.mb-0 Ley 489 - Facultades extraordinarias al presidente de la República.
             .row.justify-content-center(titulo="1999")
               .col-md-10.mb-4.mb-md-0
-                p Decreto 1124 - Por el cual se modifica la Estructura del Ministerio del Medio Ambiente.
+                p.mb-0 Decreto 1124 - Por el cual se modifica la Estructura del Ministerio del Medio Ambiente.
             .row.justify-content-center(titulo="2000")
               .col-md-10.mb-4.mb-md-0
                 ul.lista-ul--color
@@ -126,7 +126,7 @@
 
             .row.justify-content-center(titulo="2011")
               .col-md-10.mb-4.mb-md-0
-                p Decreto 3570 - Por el cual se modifican los objetivos y la estructura del Ministerio de Ambiente y Desarrollo Sostenible y se integra el Sector Administrativo de Ambiente y Desarrollo Sostenible. (Minambiente , 2020)
+                p Decreto 3570 - Por el cual se modifican los objetivos y la estructura del Ministerio de Ambiente y Desarrollo Sostenible y se integra el Sector Administrativo de Ambiente y Desarrollo Sostenible. (Minambiente, 2020).
 
     .list.mb-5
       .list__item
@@ -135,23 +135,30 @@
       .list__txt    
         h5.m-top.tx_bg1  Autoridad Nacional de Licencias Ambientales 
 
-    .row
+    .row.justify-content-center
       .col-md-8.mb-4.mb-md-0
         p(data-aos="slide-right") Es una Unidad Administrativa Especial, creada mediante el Decreto 3573 del 2011, de orden nacional encargada de que los proyectos, obras o actividades sujetos de licenciamiento, permiso o trámite ambiental cumplan con la normativa, de tal manera que contribuyan al desarrollo sostenible. 
 
         .bloque-texto-d.color-secundario.p-4.mb-5(data-aos="slide-left")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Con respecto al recurso hídrico, esta autoridad se ocupa de otorgar los permisos de concesión de aguas superficiales y subterráneas, de prospección y exploración de aguas subterráneas y de la autorización de construcción en zonas que ocupen el cauce de una corriente o depósito de agua, así como hacer seguimiento a todas las licencias otorgadas.
+            h4.text-regular Con respecto al recurso hídrico, esta autoridad se ocupa de otorgar los permisos de concesión de aguas superficiales y subterráneas, de prospección y exploración de aguas subterráneas y de la autorización de construcción en zonas que ocupen el cauce de una corriente o depósito de agua, así como hacer seguimiento a todas las licencias otorgadas.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 - ANLA, 2020
-      .col-md-4.mb-4.mb-md-0.top_img(data-aos="zoom-out-right")
+            .h5.mb-0 - ANLA, 2020.
+      .col-md-4.mb-4.mb-md-0.top_img.d-none.d-lg-block(data-aos="zoom-out-right")
         img.img-a(src='@/assets/curso/tema_2/img_7.png', alt='')
 
-    .row.mb-5.bg05.p-4.bg_top
+    figure.mb-5.d-block.d-lg-none
+      img.img-a(src='@/assets/curso/tema_2/img_7.png', alt='')
+
+    .row.mb-5.bg05.p-4.bg_top.d-none.d-lg-block 
       .col-md-8.mb-4.mb-md-0
-        p.text-center.mb-0 Su objetivo principal es velar por el cumplimiento de la normativa ambiental por parte de los proyectos, obra o actividades que se encuentren sujetos de licenciamiento o trámites expedidos por la misma. 
+        p.text-center.mb-0 Su objetivo principal es velar por el cumplimiento de la normativa ambiental por parte de los proyectos, obras o actividades que se encuentren sujetos de licenciamiento o trámites expedidos por la misma. 
+
+    .row.mb-5.bg05.p-4.d-block.d-lg-none
+      .col-md-12.mb-4.mb-md-0
+        p.text-center.mb-0 Su objetivo principal es velar por el cumplimiento de la normativa ambiental por parte de los proyectos, obras o actividades que se encuentren sujetos de licenciamiento o trámites expedidos por la misma. 
 
     .list.mb-5(data-aos="zoom-out-down")
       .list__item
@@ -181,7 +188,7 @@
 
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.bor1.p-4
-            p.mb-0.text-center “El objetivo general del Instituto es el de fortalecer la capacidad tecnológica, científica, administrativa y financiera para producir la información hidrológica, meteorológica y ambiental de manera oportuna y con la calidad que requieran la ciudadanía, los sectores públicos y privados del país” (IDEAM , 2020) 
+            p.mb-0.text-center “El objetivo general del Instituto es el de fortalecer la capacidad tecnológica, científica, administrativa y financiera para producir la información hidrológica, meteorológica y ambiental de manera oportuna y con la calidad que requieran la ciudadanía, los sectores públicos y privados del país” (IDEA, 2020). 
 
     .row.justify-content-center.mb-5
       .col-md-6.mb-4.mb-md-0.bg06.p-2
@@ -203,7 +210,7 @@
       li(data-aos="slide-right")  
         .lista-ol--cuadro__vineta
           span 4
-        | Servicios: Meteorología Aeronáutica, Redes hidrometeorológicas, Laboratorio físico químico ambiental, pronósticos y alertas. (IDEAM , 2020)
+        | Servicios: Meteorología Aeronáutica, Redes hidrometeorológicas, Laboratorio físico químico ambiental, pronósticos y alertas. (IDEAM, 2020).
 
     separador
 
@@ -212,19 +219,23 @@
 
     .row.align-items-center.bg-color1.px-5.mb-3
       .col-lg-8.mb-4.mb-lg-0(data-aos="slide-left")
-        p.mb-0 “Las Corporaciones Autónomas Regionales (CAR) son entes corporativos de carácter público, creados por la ley, integrados por las entidades territoriales que por sus características constituyen geográficamente un mismo ecosistema o conforman una unidad geopolítica, biogeográfica o hidrogeográfica, dotados de autonomía administrativa y financiera, patrimonio propio y personería jurídica, encargados por la ley de administrar, dentro del área de su jurisdicción el medio ambiente y los recursos naturales renovables y propender por su desarrollo sostenible, de conformidad con las disposiciones legales y las políticas del MADS.
+        p.mb-0 “Las Corporaciones Autónomas Regionales (CAR) son entes corporativos de carácter público, creados por la ley, integrados por las entidades territoriales que por sus características constituyen geográficamente un mismo ecosistema o conforman una unidad geopolítica, biogeográfica o hidrogeográfica, dotados de autonomía administrativa y financiera, patrimonio propio y personería jurídica, encargados por la ley de administrar, dentro del área de su jurisdicción el medio ambiente y los recursos naturales renovables y propender por su desarrollo sostenible, de conformidad con las disposiciones legales y las políticas del MADS".
 
     .row
       .col-lg-8.mb-4.mb-lg-0
         .bloque-texto-d.color-secundario.p-4.mb-5(data-aos="slide-right")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Las Corporaciones para el desarrollo sostenible, cumplen las funciones anteriormente descritas para  las CAR, se encargan del aprovechamiento sostenible y racional de los recursos naturales renovables y del medio ambiente en su respectiva jurisdicción, de la promoción de la investigación científica e innovación tecnológica, de dirigir el proceso de planificación regional de uso del suelo para mitigar y desactivar presiones de explotación inadecuada del territorio, y propiciar con la cooperación de entidades nacionales e internacionales la generación de tecnologías apropiadas para la utilización y la conservación de los recursos y del entorno de su área de influencia
+            h3.text-regular Las Corporaciones para el desarrollo sostenible, cumplen las funciones anteriormente descritas para  las CAR, se encargan del aprovechamiento sostenible y racional de los recursos naturales renovables y del medio ambiente en su respectiva jurisdicción, de la promoción de la investigación científica e innovación tecnológica, de dirigir el proceso de planificación regional de uso del suelo para mitigar y desactivar presiones de explotación inadecuada del territorio, y propiciar con la cooperación de entidades nacionales e internacionales la generación de tecnologías apropiadas para la utilización y la conservación de los recursos y del entorno de su área de influencia.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 - Observatorio Colombiano de Gobernanza del Agua OCGA, 2020
-      .col-lg-4.mb-4.mb-lg-0.top_img1(data-aos="zoom-out-down")
+            .h5.mb-0 - Observatorio Colombiano de Gobernanza del Agua OCGA, 2020.
+      .col-lg-4.mb-4.mb-lg-0.top_img1.d-none.d-lg-block(data-aos="zoom-out-down")
         img.img-a(src='@/assets/curso/tema_2/img_11.png', alt='')
+    .row
+      .col-lg-4.mb-4.mb-lg-0.d-block.d-lg-none(data-aos="zoom-out-down")
+        img.img-a(src='@/assets/curso/tema_2/img_11.png', alt='')
+    
 
     separador
 
@@ -234,7 +245,7 @@
     .row.justify-content-center
       .col-lg-10.mb-4.mb-lg-0
         .bg04.p-4(data-aos="slide-up")
-          p.mb-0 “Las Autoridades Ambientales Urbanas se encuentran presentes en los municipios, distritos o áreas metropolitanas cuya población urbana es igual o superior a un millón de habitantes. Están encargadas de promover y ejecutar programas y políticas nacionales, regionales y sectoriales en relación con el medio ambiente y los recursos naturales renovables, es decir cumplen con las funciones de las Corporaciones Autónomas Regionales en su jurisdicción”. (Observatorio Colombiano de Gobernanza del Agua OCGA, 2020)
+          p.mb-0 “Las Autoridades Ambientales Urbanas se encuentran presentes en los municipios, distritos o áreas metropolitanas cuya población urbana es igual o superior a un millón de habitantes. Están encargadas de promover y ejecutar programas y políticas nacionales, regionales y sectoriales en relación con el medio ambiente y los recursos naturales renovables, es decir cumplen con las funciones de las Corporaciones Autónomas Regionales en su jurisdicción”. (Observatorio Colombiano de Gobernanza del Agua OCGA, 2020).
         img.img-a(data-aos="slide-down")(src='@/assets/curso/tema_2/img_12.png', alt='')
 
     

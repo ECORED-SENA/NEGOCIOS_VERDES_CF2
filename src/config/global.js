@@ -24,78 +24,78 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Tratados y convenios ambientales ratificados por Colombia.',
+        titulo: 'Tratados y convenios ambientales ratificados por Colombia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Convención de Diversidad Biológica.',
+            titulo: 'Convención de Diversidad Biológica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              'Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD).',
+              'Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD)',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Foro de las Naciones Unidas sobre Bosques (UNFF).',
+            titulo: 'Foro de las Naciones Unidas sobre Bosques (UNFF)',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
-              'Unión Internacional para la Protección de las Obtenciones Vegetales (UPOV).',
+              'Unión Internacional para la Protección de las Obtenciones Vegetales (UPOV)',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo:
-              'Convención de Viena para la Protección de la Capa de Ozono.',
+              'Convención de Viena para la Protección de la Capa de Ozono',
             hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Convenio Marco Cambio Climático.',
+            titulo: 'Convenio Marco Cambio Climático',
             hash: 't_1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Protocolo de Kioto.',
+            titulo: 'Protocolo de Kioto',
             hash: 't_1_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
             titulo:
-              'Convenio de Basilea sobre el Movimiento Transfronterizo de Desechos Peligrosos.',
+              'Convenio de Basilea sobre el Movimiento Transfronterizo de Desechos Peligrosos',
             hash: 't_1_8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
-            titulo: 'Convenio de Rotterdam.',
+            titulo: 'Convenio de Rotterdam',
             hash: 't_1_9',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.10',
             titulo:
-              'Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes.',
+              'Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes',
             hash: 't_1_10',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.11',
-            titulo: 'Tratados de Cooperación Amazónica (TCA).',
+            titulo: 'Tratados de Cooperación Amazónica (TCA)',
             hash: 't_1_11',
           },
         ],
@@ -104,25 +104,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Sistema Nacional Ambiental (SINA).',
+        titulo: 'Sistema Nacional Ambiental (SINA)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Autoridades Ambientales Nacionales.',
+            titulo: 'Autoridades Ambientales Nacionales',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Autoridades Ambientales Regionales.',
+            titulo: 'Autoridades Ambientales Regionales',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Autoridades Ambientales Urbanas.',
+            titulo: 'Autoridades Ambientales Urbanas',
             hash: 't_2_3',
           },
         ],
@@ -131,46 +131,46 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Indicadores Ambientales.',
+        titulo: 'Indicadores Ambientales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Mejoramiento continuo.',
+        titulo: 'Mejoramiento continuo',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Ciclo Deming – PHVA.',
+        titulo: 'Ciclo Deming – PHVA',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Pasos para realizar un plan de acción.',
+        titulo: 'Pasos para realizar un plan de acción',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo: 'Plantear objetivos y estrategias.',
+            titulo: 'Plantear objetivos y estrategias',
             hash: 't_6_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.2',
-            titulo: 'Plantear tareas y definir tiempos.',
+            titulo: 'Plantear tareas y definir tiempos',
             hash: 't_6_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.3',
-            titulo: 'Ejecutar el plan.',
+            titulo: 'Ejecutar el plan',
             hash: 't_6_3',
           },
         ],
@@ -179,7 +179,7 @@ export default {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Buenas Prácticas de Manufactura (BPM).',
+        titulo: 'Buenas Prácticas de Manufactura (BPM)',
         desarrolloContenidos: true,
       },
     ],
@@ -213,94 +213,90 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia: 'ANLA. (2020). Autoridad Nacional de Licencias Ambientales.',
+      referencia: 'ANLA. (2020). Autoridad Nacional de Licencias Ambientales. ',
       link: 'http://www.anla.gov.co/entidad/institucional/objeto-y-funciones',
     },
 
     {
-      referencia: 'Cancillería de Colombia . (2018). Cancillería de Colombia.',
+      referencia: 'Cancillería de Colombia. (2018). Cancillería de Colombia. ',
       link: 'https://www.cancilleria.gov.co/',
     },
 
     {
       referencia:
-        'Decreto 3570 de 2011, Por el cual se modifican los objetivos y la estructura del Ministerio de Ambiente y Desarrollo Sostenible y se integra el Sector Administrativo de Ambiente y Desarrollo Sostenible. (Diario Oficial 48205, septiembre 27 de 2011) 27 Sep, 2011',
+        'Decreto 3570 de 2011, Por el cual se modifican los objetivos y la estructura del Ministerio de Ambiente y Desarrollo Sostenible y se integra el Sector Administrativo de Ambiente y Desarrollo Sostenible. (Diario Oficial 48205, septiembre 27 de 2011).',
     },
 
     {
-      referencia: 'Ecología Verde. (2018). Ecología Verde.',
+      referencia: 'Ecología Verde. (2018). Ecología Verde. ',
       link:
         'https://www.ecologiaverde.com/huella-ecologica-definicion-sencilla-para-ninos-1124.html',
     },
 
     {
-      referencia: 'IDEAM . (2020). IDEAM.',
+      referencia: 'IDEAM. (2020). IDEAM. ',
       link: 'http://www.ideam.gov.co/web/entidad/manual-funciones',
     },
 
     {
       referencia:
-        'Industria Alimenticia. (2013). Las buenas prácticas de manufactura (BPM).',
+        'Industria Alimenticia. (2013). Las buenas prácticas de manufactura (BPM). ',
       link:
         'https://search-proquest-com.bdigital.sena.edu.co/docview/1448016394?accountid=31491',
     },
 
     {
       referencia:
-        'Instituto Uruguayo de Normas Técnicas . (2009). Herramientas para la Mejora de la Calidad.',
+        'Instituto Uruguayo de Normas Técnicas. (2009). Herramientas para la Mejora de la Calidad.',
     },
 
     {
-      referencia: 'Minambiente . (2020). Minambiente .',
+      referencia: 'Minambiente. (2020). Convención de Viena. Minambiente.',
       link:
-        'https://www.minambiente.gov.co/index.php/component/content/article?id=193:plantilla-asuntos-ambientales-y-sectorial-y-urbana-sin-galeria-9#:~:text=El%20Convenio%20de%20Viena%20es,que%20rodea%20a%20la%20tierra.',
+        'https://www.minambiente.gov.co/index.php/component/content/article?id=193:plantilla-asuntos-ambientales-y-sectorial-y-urbana-sin-galeria-',
     },
 
     {
-      referencia: 'NACIONES UNIDAS CHILE. (2020). Naciones Unidas Chile.',
+      referencia:
+        'NACIONES UNIDAS CHILE. (2020). Convención de las Naciones Unidas de Lucha contra la Desertificación. Naciones Unidas Chile. ',
       link: 'http://www.onu.cl/es/unccd/',
     },
 
     {
       referencia:
-        'Observatorio Colombiano de Gobernanza del Agua OCGA. (2020). AUTORIDADES AMBIENTALES EN COLOMBIA.',
-      link: 'www.ideam.gov.co/web/ocga/autoridades',
+        'Observatorio Colombiano de Gobernanza del Agua OCGA. (2020). AUTORIDADES AMBIENTALES EN COLOMBIA. ',
+      link:
+        'https://www.unccd.int/sites/default/files/relevant-links/2017-08/UNCCD_Convention_text_SPA.pdf',
     },
 
-    { referencia: 'Pareja, D. (2019). ¿ Qué es un plan de acción? .' },
+    { referencia: 'Pareja, D. (2019). ¿ Qué es un plan de acción?' },
 
     {
       referencia:
-        'Parques Nacionales Naturales de Colombia . (2020). Parques Nacionales Naturales de Colombia.',
+        'Parques Nacionales Naturales de Colombia . (2020). Parques Nacionales Naturales de Colombia. ',
       link:
         'https://www.parquesnacionales.gov.co/portal/es/organizacion/objetivos-y-funciones/',
     },
 
     {
-      referencia: 'Secretaría del Convenio de Rotterdam. (2004). FAO.',
+      referencia: 'Secretaría del Convenio de Rotterdam. (2004). FAO. ',
       link: 'http://www.fao.org/3/a0137s/a0137s00.htm#Contents',
     },
 
     {
       referencia:
-        'Secretaría del Convenio sobre la Diversidad Biológica. (2020). www.cbd.int/int.',
+        'Secretaría del Convenio sobre la Diversidad Biológica. (2020). www.cbd.int/int. ',
       link:
         'https://www.cbd.int/undb/media/factsheets/undb-factsheets-es-web.pdf',
     },
 
     {
       referencia:
-        'Tolón Becerra , A., & Lastra Bravo, X. (2013). HUELLA HÍDRICA Y SOSTENIBILIDAD DEL USO DE LOS RECURSOS. Revista electrónica de medio ambiente , 56.',
+        'Tolón Becerra, A., & Lastra Bravo, X. (2013). HUELLA HÍDRICA Y SOSTENIBILIDAD DEL USO DE LOS RECURSOS. Revista electrónica de medio ambiente, 56.',
     },
 
     {
-      referencia: 'UPOV. (2020). UPOV.',
+      referencia: 'UPOV. (2020). UPOV. ',
       link: 'https://www.upov.int/portal/index.html.es',
     },
   ],
@@ -331,14 +327,14 @@ export default {
         'consiste en una degradación persistente de los ecosistemas de las tierras secas producida por las variaciones climáticas y la actividad del hombre. Está presente en todos los continentes (salvo en la Antártida) y afecta al medio de vida de millones de personas, entre los que se encuentran buena parte de los pobres que viven en las tierras secas.',
     },
     {
-      termino: 'Gases Efecto de Invernadero (GEI)',
+      termino: 'Gases de Efecto Invernadero (GEI)',
       significado:
-        'son compuestos químicos en estado gaseoso como el vapor de agua, el dióxido de carbono (c02), el metano (ch4) y el óxido nitroso(n2o) que se acumulan en la atmósfera de la tierra y que son capaces de absorber la radiación infrarroja del sol, aumentando y reteniendo el calor en la atmósfera',
+        'son compuestos químicos en estado gaseoso como el vapor de agua, el dióxido de carbono (CO2), el metano (CH4) y el óxido nitroso (N2O) que se acumulan en la atmósfera de la tierra y que son capaces de absorber la radiación infrarroja del sol, aumentando y reteniendo el calor en la atmósfera.',
     },
     {
       termino: 'Huella ecológica',
       significado:
-        'es uno de los indicadores más importantes para evaluar el impacto ambiental de las actividades que se realizan habitualmente. es decir, se evalúa el impacto que tiene el medio ambiente cuando se utiliza un terreno ecológicamente productivo para obtener los recursos deseados.',
+        'es uno de los indicadores más importantes para evaluar el impacto ambiental de las actividades que se realizan habitualmente, es decir, se evalúa el impacto que tiene el medio ambiente cuando se utiliza un terreno ecológicamente productivo para obtener los recursos deseados.',
     },
     {
       termino: 'Huella hídrica',
@@ -353,19 +349,19 @@ export default {
     {
       termino: 'Sequía',
       significado:
-        'es un periodo seco que se prolonga de manera significativa. se caracteriza porque durante la sequía la disponibilidad del agua está por debajo de sus niveles habituales, y, en consecuencia, no puede abastecer las necesidades de los seres vivos (animales, plantas y personas) que habitan en una región determinada.',
+        'es un periodo seco que se prolonga de manera significativa. Se caracteriza porque durante la sequía la disponibilidad del agua está por debajo de sus niveles habituales y, en consecuencia, no puede abastecer las necesidades de los seres vivos (animales, plantas y personas) que habitan en una región determinada.',
     },
   ],
   complementario: [
     {
       texto:
-        'Decreto 3570 de 2011, Por el cual se modifican los objetivos y la estructura del Ministerio de Ambiente y Desarrollo Sostenible y se integra el Sector Administrativo de Ambiente y Desarrollo Sostenible. (Diario Oficial 48205, septiembre 27 de 2011) 27 Sep, 2011',
+        'Decreto 3570 de 2011. Por el cual se modifican los objetivos y la estructura del Ministerio de Ambiente y Desarrollo Sostenible y se integra el Sector Administrativo de Ambiente y Desarrollo Sostenible. (Diario Oficial 48205, septiembre 27 de 2011).',
       tipo: 'PDF',
       descarga: '/downloads/Decreto_3570_2011.pdf',
     },
     {
       texto:
-        'Instituto Uruguayo de Normas Técnicas (2009) Herramientas para la mejora de la calidad.',
+        'Instituto Uruguayo de Normas Técnicas (2009). Herramientas para la mejora de la calidad.',
       tipo: 'Capítulo de libro',
       descarga: '/downloads/Herramientas_mejora_de_calidad.pdf',
     },
@@ -385,6 +381,26 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Kateryn Dallan Valderrama',
+        cargo: 'Experta temática',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'José Gregorio Ramírez',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla Méndez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -399,25 +415,42 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Oscar Iván Uribe Ortiz'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: [
+          'Gilberto Junior Rodríguez Rodríguez',
+          'José Jaime Luis Tang Pinzón',
+          'María Carolina Tamayo López',
+          'Víctor Raúl Cárdenas Cáceres',
+          'Wilson Andrés Arenales Cáceres',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ['Zuleidy María Ruiz Torres'],
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Ricardo Alfonso González Vargas',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

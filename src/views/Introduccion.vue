@@ -8,6 +8,13 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    p(data-aos="slide-left") Para el desarrollo de las propuestas ambientales es fundamental conocer la normativa y eventos en los cuales participa nuestro país, con el fin de proponer el plan de acción a seguir para cumplir con los objetivos de cada organización.
+
+    p(data-aos="slide-right") Por consiguiente, mediante el estudio del presente material, usted logrará identificar los tratados o convenios en los cuales se ha vinculado Colombia, las entidades que regulan las actividades del medio ambiente y su conservación a nivel local, regional y nacional, así como el paso a paso para realizar una propuesta ambiental, basada en las herramientas de generación, recolección y procesamiento de ideas. 
+
+    p.mb-5(data-aos="slide-left") Finalmente, podrá identificar las metodologías para poner en marcha y evaluar las propuestas y los protocolos necesarios para la transformación de los recursos. 
+
     
     .row.p-5.bg01.mb-5(data-aos="zoom-in-down")
       .col-lg-10
@@ -17,11 +24,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-11
-        .bor1.px-4(data-aos="slide-left")
+        .bor1.px-4.mb-5(data-aos="slide-left")
           p No obstante, estas entidades no solo vigilan y controlan el desarrollo adecuado de las políticas sino también, proponen e implementan nuevas estrategias con un único fin, desarrollar economías sostenibles, que promuevan la conservación y cuidado de los recursos naturales con los que se cuenta en la totalidad del territorio nacional. 
 
         .cajon.color-primario.p-4(data-aos="slide-right")
-          p.mb-0 Finalmente, estas estrategias y actores participan en la elaboración de planes de acción ambientales, dentro de los cuales, los actores validan los indicadores ambiental existentes y su correcto funcionamiento, para así mismo, detectar las oportunidades de mejora que se presenten y el paso a paso a seguir por cada responsable asignado, para así lograr la dinámica deseada del uso y conservación de los recursos.
+          p.mb-0 Finalmente, estas estrategias y actores participan en la elaboración de planes de acción ambientales, dentro de los cuales, los actores validan los indicadores ambientales existentes y su correcto funcionamiento, para así mismo, detectar las oportunidades de mejora que se presenten y el paso a paso a seguir por cada responsable asignado, para así lograr la dinámica deseada del uso y conservación de los recursos.
 
 
 

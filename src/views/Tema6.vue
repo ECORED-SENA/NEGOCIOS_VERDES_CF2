@@ -32,12 +32,7 @@
     .row.bg-color2.px-5
       .col-lg-12.mb-4.mb-lg-0.col_top1(data-aos="slide-left")
 
-        .list
-          .list__item
-              .list__item__bulletNumber 
-                span 1
-          .list__txt    
-            h5.m-top.tx_bg1 Herramientas
+        h4.tx_bg1 Herramientas
 
         .row.justify-content-center
           .col-lg-4
@@ -47,7 +42,7 @@
 
         .row.justify-content-center.mb-5
           .col-lg-8
-            p estas permiten a los participantes presentar sus ideas e hipótesis planteadas frente a la oportunidad de mejora, de una manera ordenada y concreta. Entre estas se encuentran: 
+            p Estas permiten a los participantes presentar sus ideas e hipótesis planteadas frente a la oportunidad de mejora, de una manera ordenada y concreta. Entre estas se encuentran: 
 
     .row.justify-content-center.mb-5
       .col-lg-10.col_top
@@ -63,7 +58,7 @@
 
         .tarjeta-avatar-b.mb-5(data-aos="fade-down-right")
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema_6/img_8.svg' alt='AvatarTop')
+            img.img-a(src='@/assets/curso/tema_6/img_8.svg' alt='AvatarTop')
           .tarjeta.bg04.bor_tarj
             .p-4
               h3 Diagrama de dispersión 
@@ -71,7 +66,7 @@
 
         .tarjeta-avatar-b.mb-5(data-aos="fade-down-left")
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema_6/img_9.svg' alt='AvatarTop')
+            img.img-a(src='@/assets/curso/tema_6/img_9.svg' alt='AvatarTop')
           .tarjeta.bg04.bor_tarj
             .p-4
               h3 Histograma
@@ -83,21 +78,23 @@
               h4.text-center.text-white.mb-0 Para presentar información
             img.img-b.mb-3(data-aos="zoom-in")(src='@/assets/curso/tema_6/img_3.png', alt='')
 
-        p.mb-5(data-aos="zoom-in") finalmente, después de realizar la generación de ideas, recolección y procesamiento de estas, la información se presenta mediante un diagrama de flujo o flujograma. 
+        p.mb-5(data-aos="zoom-in") Finalmente, después de realizar la generación de ideas, recolección y procesamiento de estas, la información se presenta mediante un diagrama de flujo o flujograma. 
 
         .row.mb-5
           .col-lg-8.mb-4.mb-lg-0(data-aos="fade-down-right")
             .cajon.color-primario.p-4.mb-5
               p #[strong Diagrama de flujo:] es una representación gráfica que indica las actividades que constituyen un proceso y en el cual se da la ordenación de los elementos de acuerdo con el momento de su ejecución. Este diagrama facilita la comprensión de cómo se lleva a cabo cualquier proceso.
 
-            p Se puede representar tanto el diagrama de flujo de un proceso primario como de procesos paralelos o alternativos. De esta manera se puede observar la sucesión de acontecimientos que ocurren para la realización de un producto (desde los materiales hasta los productos). Esto permite, que cada persona sepa que se hace antes y que se va a hacer después de la ejecución de una actividad o tarea. 
+            p Se puede representar tanto el diagrama de flujo de un proceso primario como de procesos paralelos o alternativos. De esta manera se puede observar la sucesión de acontecimientos que ocurren para la realización de un producto (desde los materiales hasta los productos). Esto permite, que cada persona sepa qué se hace antes y qué se va a hacer después de la ejecución de una actividad o tarea. 
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up-left")
             img(src='@/assets/curso/tema_6/img_10.png' alt='')
 
         .bg_d(data-aos="zoom-in")
           .p-4
             p En este tipo de diagrama se utilizan diferentes símbolos los cuales según la norma ISO 5807, determinan ciertas categorías, por ejemplo, para iniciar el flujograma se establece el título en un óvalo, si se determina una actividad en un cuadrado y se utilizan flechas como líneas de conexión como se muestra a continuación: 
-          img.img-a(src='@/assets/curso/tema_6/img_11.png' alt='')
+          figure
+            img.img-a(src='@/assets/curso/tema_6/img_11.png' alt='')
+            figcaption Fuente: (Instituto Uruguayo de Normas Técnicas, 2009)
 
     separador
 
@@ -123,9 +120,10 @@
           .row.justify-content-center(titulo="Gráfico de Gantt")(data-aos="slide-right")
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img.img-a(src='@/assets/curso/tema_6/img_13.png' alt='')          
+                img.img-a(src='@/assets/curso/tema_6/img_13.png' alt='')    
+                     
             .col-lg-9.mb-4.mb-lg-0
-              p “es un gráfico de barras horizontales que consiste en hacer una lista de actividades las cuales se indican verticalmente en un diagrama. En forma horizontal (con forma de barra), se indica el tiempo en las unidades más apropiadas según el tipo de proyecto de que se trata” (Instituto Uruguayo de Normas Técnicas , 2009). 
+              p “Es un gráfico de barras horizontales que consiste en hacer una lista de actividades las cuales se indican verticalmente en un diagrama. En forma horizontal (con forma de barra), se indica el tiempo en las unidades más apropiadas según el tipo de proyecto de que se trata” (Instituto Uruguayo de Normas Técnicas, 2009). 
               p En este diagrama se logra representar la duración proyectada y la duración verdadera de cada actividad. Así como el inicio más temprano posible para cada actividad. Eso depende de si tiene que estar finalizada o no una actividad para ejecutar la siguiente. 
 
             p.mt-3 Finalmente, este diagrama es muy práctico, porque a medida que se avance en el desarrollo de cada actividad propuesta, se sombrea la barra correspondiente. Por lo tanto, en un momento cualquiera se ve con claridad cuáles actividades están a tiempo y cuáles no. 
@@ -133,16 +131,17 @@
           .row.justify-content-center(titulo="Técnica PERT")(data-aos="slide-left")
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img.img-a(src='@/assets/curso/tema_6/img_14.png' alt='')          
+                img.img-a(src='@/assets/curso/tema_6/img_14.png' alt='')  
+                figcaption Fuente: (Instituto Uruguayo de Normas Técnicas, 2009)         
             .col-lg-9.mb-4.mb-lg-0
-              p  “fue desarrollada a fines de la década de 1950 por la Navy Projects Office en colaboración con la empresa de consultoría administrativa de Booz, Allen y Hamilton y la División de Sistemas de Armamentos de la Corporación Lockheed Aircraft.  La técnica recibió una considerable publicidad, favorable para su uso, en el programa de ingeniería y desarrollo del misil Polaris, un complicado proyecto que tenía 250 contratistas primarios y 9000 subcontratistas. Desde esa fecha, ha sido ampliamente utilizado en otras organizaciones, tanto industriales como de servicios”. (Instituto Uruguayo de Normas Técnicas , 2009).
+              p  “Fue desarrollada a fines de la década de 1950 por la Navy Projects Office en colaboración con la empresa de consultoría administrativa de Booz, Allen y Hamilton y la División de Sistemas de Armamentos de la Corporación Lockheed Aircraft.  La técnica recibió una considerable publicidad, favorable para su uso, en el programa de ingeniería y desarrollo del misil Polaris, un complicado proyecto que tenía 250 contratistas primarios y 9000 subcontratistas. Desde esa fecha, ha sido ampliamente utilizado en otras organizaciones, tanto industriales como de servicios”. (Instituto Uruguayo de Normas Técnicas, 2009).
 
             .cajon.color-acento-contenido.p-4.mb-3.mt-3
               p.mb-0 En la técnica PERT cada una de las actividades que se llevarán a cabo en el plan de acción o plan de mejora, se representa mediante una flecha llamada arco o rama. El principio y el fin de cada actividad se representan mediante un círculo que se denomina nodo o evento. 
 
             p Cada nodo se numera en forma arbitraria, utilizando dichos números solamente para identificar eventos, sin indicar las relaciones de precedencia. En esta técnica, cada una de las actividades debe empezar en el nodo en que termina su antecesor. 
 
-            p.mb-0 No obstante, independiente del modelo utilizado (GANNT o PERT), cada organización deberá asignar los responsables directos de cada actividad y sus grupos de apoyo, quienes preferentemente deben ser los que estén involucrados en todo el plan de acción.
+            p.mb-0 No obstante, independiente del modelo utilizado (GANTT o PERT), cada organización deberá asignar los responsables directos de cada actividad y sus grupos de apoyo, quienes preferentemente deben ser los que estén involucrados en todo el plan de acción.
 
     separador
 
@@ -169,7 +168,7 @@ export default {
       {
         titulo: 'La tormenta de ideas',
         texto:
-          'También denominada lluvia de ideas o brainstorming, es una metodología para encontrar e identificar posibles soluciones a los problemas y oportunidades potenciales para el plan de acción. Por medio de la tormenta de ideas, se reúne un grupo de personas a exponer sus ideas frente a una temática determinada, no existe moderador, todos son participantes y se lleva cabo en dos etapas: (i) generación de ideas y (ii) aclaración de estas.',
+          'También denominada lluvia de ideas o brainstorming, es una metodología para encontrar e identificar posibles soluciones a los problemas y oportunidades potenciales para el plan de acción. Por medio de la tormenta de ideas, se reúne un grupo de personas a exponer sus ideas frente a una temática determinada, no existe moderador, todos son participantes y se lleva a cabo en dos etapas: (i) generación de ideas y (ii) aclaración de estas.',
         imagen: require('@/assets/curso/tema_6/img_4.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

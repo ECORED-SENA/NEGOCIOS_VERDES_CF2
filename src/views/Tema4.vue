@@ -6,15 +6,15 @@
     .titulo-principal(data-aos="zoom-in")
       .titulo-principal__numero
         span 4
-      h1 Plan de acción ambiental
+      h1 Mejoramiento continuo
 
     img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='')(data-aos="zoom-in-down")
 
     .row.p-5.justify-content-center(data-aos="zoom-in-down")
       .col-lg-10.bg02.p-4
-        p.mb-0 A partir de la Conferencia de las Naciones Unidas sobre el Medio Ambiente y Desarrollo celebrada en Río de Janeiro en 1992, se inició la Agenda 21, un programa pensado para llevar a cabo un plan de acción ambiental y   fue firmada por más de 178 países en la Conferencia de Naciones Unidas sobre el Medio Ambiente y el Desarrollo (UNCED).determinados. 
+        p.mb-0 A partir de la Conferencia de las Naciones Unidas sobre el Medio Ambiente y Desarrollo celebrada en Río de Janeiro en 1992, se inició la Agenda 21, un programa pensado para llevar a cabo un plan de acción ambiental y   fue firmada por más de 178 países en la Conferencia de Naciones Unidas sobre el Medio Ambiente y el Desarrollo (UNCED).
 
-    p.mb-5(data-aos="zoom-in-down") La Agenda 21 es un plan de acción exhaustivo que habrá de ser adoptado universal, nacional y localmente por organizaciones del Sistema de Naciones Unidas, Gobiernos y Grupos principales de cada zona en la cual el ser humano influya en el medio ambiente. 
+    p.mb-5(data-aos="zoom-in-down") La Agenda 21 es un plan de acción exhaustivo que habrá de ser adoptado universal, nacional y localmente por organizaciones del Sistema de Naciones Unidas, Gobiernos y grupos principales de cada zona en la cual el ser humano influya en el medio ambiente. 
 
     .row.justify-content-center.mb-5(data-aos="slide-right")
       .col-lg-10.bor3.p-3
