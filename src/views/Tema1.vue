@@ -297,7 +297,7 @@ export default {
   watch: {
     $route(to) {
       if (to.hash?.length) {
-        const numero = to.hash.split('')[1]
+        const numero = to.hash.split('_')[1]
         this.mostrarCollapse(numero)
         document.getElementById('MapaGroup01').scrollIntoView({
           behavior: 'smooth',
