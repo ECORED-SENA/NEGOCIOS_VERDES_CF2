@@ -19,7 +19,7 @@
     .cajon.color-primario.p-4.mb-5(data-aos="slide-right")
       p Es así como a continuación se presenta una breve descripción de cada una de estas organizaciones con el fin de identificar los tratados a los cuales Colombia se encuentra inscrito y sus disposiciones: 
 
-    a(@click="mostrarColaps()") mostrar 3
+    a(@click="mostrarColaps()")
 
     #MapaGroup01
 
