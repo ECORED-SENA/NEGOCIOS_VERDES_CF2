@@ -19,51 +19,53 @@
     .cajon.color-primario.p-4.mb-5(data-aos="slide-right")
       p Es así como a continuación se presenta una breve descripción de cada una de estas organizaciones con el fin de identificar los tratados a los cuales Colombia se encuentra inscrito y sus disposiciones: 
 
+    a(@click="mostrarColaps()") mostrar 3
+
     #MapaGroup01
 
       .row.mb-5
         .col-lg-1(data-aos="slide-up")
-          button.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='true' aria-controls='#collapse01, #collapse01s')
+          button#boton1.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='true' aria-controls='#collapse01, #collapse01s')
             img.img-a(src='@/assets/curso/tema_1/img_3.svg', alt='')
           img#collapse01s.img-a.collapse.show(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-down")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
+          button#boton2.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
             img.img-a(src='@/assets/curso/tema_1/img_4.svg', alt='')
           img#collapse02s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-up")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
+          button#boton3.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
             img.img-a(src='@/assets/curso/tema_1/img_5.svg', alt='')
           img#collapse03s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-down")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #collapse04s' aria-expanded='false' aria-controls='#collapse04, #collapse04s')
+          button#boton4.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #collapse04s' aria-expanded='false' aria-controls='#collapse04, #collapse04s')
             img.img-a(src='@/assets/curso/tema_1/img_6.svg', alt='')
           img#collapse04s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-up")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse05, #collapse05s' aria-expanded='false' aria-controls='#collapse05, #collapse05s')
+          button#boton5.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse05, #collapse05s' aria-expanded='false' aria-controls='#collapse05, #collapse05s')
             img.img-a(src='@/assets/curso/tema_1/img_7.svg', alt='')
           img#collapse05s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-down")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse06, #collapse06s' aria-expanded='false' aria-controls='#collapse06, #collapse06s')
+          button#boton6.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse06, #collapse06s' aria-expanded='false' aria-controls='#collapse06, #collapse06s')
             img.img-a(src='@/assets/curso/tema_1/img_8.svg', alt='')
           img#collapse06s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-up")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse07, #collapse07s' aria-expanded='false' aria-controls='#collapse07, #collapse07s')
+          button#boton7.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse07, #collapse07s' aria-expanded='false' aria-controls='#collapse07, #collapse07s')
             img.img-a(src='@/assets/curso/tema_1/img_9.svg', alt='')
           img#collapse07s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-down")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse08, #collapse08s' aria-expanded='false' aria-controls='#collapse08, #collapse08s')
+          button#boton8.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse08, #collapse08s' aria-expanded='false' aria-controls='#collapse08, #collapse08s')
             img.img-a(src='@/assets/curso/tema_1/img_10.svg', alt='')
           img#collapse08s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-up")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse09, #collapse09s' aria-expanded='false' aria-controls='#collapse09, #collapse09s')
+          button#boton9.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse09, #collapse09s' aria-expanded='false' aria-controls='#collapse09, #collapse09s')
             img.img-a(src='@/assets/curso/tema_1/img_11.svg', alt='')
           img#collapse09s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-down")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse10, #collapse10s' aria-expanded='false' aria-controls='#collapse10, #collapse10s')
+          button#boton10.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse10, #collapse10s' aria-expanded='false' aria-controls='#collapse10, #collapse10s')
             img.img-a(src='@/assets/curso/tema_1/img_12.svg', alt='')
           img#collapse10s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1(data-aos="slide-up")
-          button.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse11, #collapse11s' aria-expanded='false' aria-controls='#collapse11, #collapse11s')
+          button#boton11.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse11, #collapse11s' aria-expanded='false' aria-controls='#collapse11, #collapse11s')
             img.img-a(src='@/assets/curso/tema_1/img_13.svg', alt='')
           img#collapse11s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
         .col-lg-1.top_img2.d-none.d-lg-block(data-aos="slide-up")
@@ -287,15 +289,22 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
   }),
+  watch: {
+    $route(to) {
+      if (to.hash?.length) {
+        const numero = to.hash.split('')[1]
+        this.mostrarCollapse(numero)
+        document.getElementById('MapaGroup01').scrollIntoView({
+          behavior: 'smooth',
+        })
+      }
+    },
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -303,6 +312,11 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    mostrarCollapse(id) {
+      document.querySelector('#boton' + id).click()
+    },
   },
 }
 </script>

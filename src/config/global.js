@@ -31,72 +31,72 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Convención de Diversidad Biológica',
-            hash: 't_1_1',
+            hash: '1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
               'Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD)',
-            hash: 't_1_2',
+            hash: '2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Foro de las Naciones Unidas sobre Bosques (UNFF)',
-            hash: 't_1_3',
+            hash: '3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
               'Unión Internacional para la Protección de las Obtenciones Vegetales (UPOV)',
-            hash: 't_1_4',
+            hash: '4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo:
               'Convención de Viena para la Protección de la Capa de Ozono',
-            hash: 't_1_5',
+            hash: '5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Convenio Marco Cambio Climático',
-            hash: 't_1_6',
+            hash: '6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Protocolo de Kioto',
-            hash: 't_1_7',
+            hash: '7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
             titulo:
               'Convenio de Basilea sobre el Movimiento Transfronterizo de Desechos Peligrosos',
-            hash: 't_1_8',
+            hash: '8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
             titulo: 'Convenio de Rotterdam',
-            hash: 't_1_9',
+            hash: '9',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.10',
             titulo:
               'Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes',
-            hash: 't_1_10',
+            hash: '10',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.11',
             titulo: 'Tratados de Cooperación Amazónica (TCA)',
-            hash: 't_1_11',
+            hash: '11',
           },
         ],
       },
