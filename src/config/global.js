@@ -30,7 +30,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Convención de Diversidad Biológica',
+            titulo:
+              'Convenio de Diversidad Biológica o Convention on Biological Diversity',
             hash: 't_1',
           },
           {
@@ -56,8 +57,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo:
-              'Convención de Viena para la Protección de la Capa de Ozono',
+            titulo: 'Convenio de Viena para la Protección de la Capa de Ozono',
             hash: 't_5',
           },
           {
@@ -138,7 +138,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Mejoramiento continuo',
+        titulo: 'Plan de acción ambiental',
         desarrolloContenidos: true,
       },
       {
@@ -251,7 +251,7 @@ export default {
     },
 
     {
-      referencia: 'Minambiente. (2020). Convención de Viena. Minambiente.',
+      referencia: 'Minambiente. (2020). Convención de Viena. Minambiente. ',
       link:
         'https://www.minambiente.gov.co/index.php/component/content/article?id=193:plantilla-asuntos-ambientales-y-sectorial-y-urbana-sin-galeria-',
     },
@@ -259,7 +259,8 @@ export default {
     {
       referencia:
         'NACIONES UNIDAS CHILE. (2020). Convención de las Naciones Unidas de Lucha contra la Desertificación. Naciones Unidas Chile. ',
-      link: 'http://www.onu.cl/es/unccd/',
+      link:
+        'https://www.unccd.int/sites/default/files/relevant-links/2017-08/UNCCD_Convention_text_SPA.pdf',
     },
 
     {
@@ -269,7 +270,7 @@ export default {
         'https://www.unccd.int/sites/default/files/relevant-links/2017-08/UNCCD_Convention_text_SPA.pdf',
     },
 
-    { referencia: 'Pareja, D. (2019). ¿ Qué es un plan de acción?' },
+    { referencia: 'Pareja, D. (2019). ¿Qué es un plan de acción?' },
 
     {
       referencia:
@@ -379,10 +380,10 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Kateryn Dallan Valderrama',
+        nombre: 'Kateryn Dallan Valderrama Varón',
         cargo: 'Experta temática',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
@@ -399,7 +400,8 @@ export default {
       {
         nombre: 'Julieth Paola Vital López',
         cargo: 'Correctora de estilo',
-        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -407,30 +409,48 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: ['Oscar Iván Uribe Ortiz'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: [
-          'Gilberto Junior Rodríguez Rodríguez',
-          'José Jaime Luis Tang Pinzón',
-          'María Carolina Tamayo López',
-          'Víctor Raúl Cárdenas Cáceres',
-          'Wilson Andrés Arenales Cáceres',
-        ],
+        nombre: ['Gilberto Junior Rodríguez Rodríguez'],
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['José Jaime Luis Tang Pinzón'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['María Carolina Tamayo López'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Víctor Raúl Cárdenas Cáceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Wilson Andrés Arenales Cáceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: ['Zuleidy María Ruiz Torres'],
@@ -441,26 +461,26 @@ export default {
         nombre: 'Ricardo Alfonso González Vargas',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

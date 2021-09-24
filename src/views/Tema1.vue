@@ -21,54 +21,54 @@
 
     a(@click="mostrarColaps()")
 
-    #MapaGroup01
+    #MapaGroup01(data-aos="zoom-in")
 
       .row.mb-5
-        .col-lg-1(data-aos="slide-up")
-          button#boton1.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='true' aria-controls='#collapse01, #collapse01s')
-            img.img-a(src='@/assets/curso/tema_1/img_3.svg', alt='')
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
+          button#boton1.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='false' aria-controls='#collapse01, #collapse01s')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_3.svg', alt='')
           img#collapse01s.img-a.collapse.show(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-down")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton2.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
-            img.img-a(src='@/assets/curso/tema_1/img_4.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_4.svg', alt='')
           img#collapse02s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-up")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton3.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
-            img.img-a(src='@/assets/curso/tema_1/img_5.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_5.svg', alt='')
           img#collapse03s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-down")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton4.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #collapse04s' aria-expanded='false' aria-controls='#collapse04, #collapse04s')
-            img.img-a(src='@/assets/curso/tema_1/img_6.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_6.svg', alt='')
           img#collapse04s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-up")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton5.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse05, #collapse05s' aria-expanded='false' aria-controls='#collapse05, #collapse05s')
-            img.img-a(src='@/assets/curso/tema_1/img_7.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_7.svg', alt='')
           img#collapse05s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-down")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton6.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse06, #collapse06s' aria-expanded='false' aria-controls='#collapse06, #collapse06s')
-            img.img-a(src='@/assets/curso/tema_1/img_8.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_8.svg', alt='')
           img#collapse06s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-up")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton7.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse07, #collapse07s' aria-expanded='false' aria-controls='#collapse07, #collapse07s')
-            img.img-a(src='@/assets/curso/tema_1/img_9.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_9.svg', alt='')
           img#collapse07s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-down")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton8.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse08, #collapse08s' aria-expanded='false' aria-controls='#collapse08, #collapse08s')
-            img.img-a(src='@/assets/curso/tema_1/img_10.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_10.svg', alt='')
           img#collapse08s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-up")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton9.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse09, #collapse09s' aria-expanded='false' aria-controls='#collapse09, #collapse09s')
-            img.img-a(src='@/assets/curso/tema_1/img_11.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_11.svg', alt='')
           img#collapse09s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-down")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton10.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse10, #collapse10s' aria-expanded='false' aria-controls='#collapse10, #collapse10s')
-            img.img-a(src='@/assets/curso/tema_1/img_12.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_12.svg', alt='')
           img#collapse10s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1(data-aos="slide-up")
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
           button#boton11.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse11, #collapse11s' aria-expanded='false' aria-controls='#collapse11, #collapse11s')
-            img.img-a(src='@/assets/curso/tema_1/img_13.svg', alt='')
+            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_13.svg', alt='')
           img#collapse11s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1.top_img2.d-none.d-lg-block(data-aos="slide-up")
+        .col-lg-1.mb-3.mb-lg-0.top_img2.d-none.d-lg-block
           img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='')
 
       #collapse01.collapse.show(data-bs-parent='#MapaGroup01')
@@ -89,7 +89,7 @@
             .h5.mb-0 - Secretaría del Convenio sobre la Diversidad Biológica, 2020.
 
         .bg03.mb-5(data-aos="slide-right")
-          h4.text-center.text-white.mb-0 A continuación se mencionan algunos de los datos clave que menciona la Secretaría del Convenio sobre la Diversidad Biológica (2020):
+          h4.text-center.text-white.mb-0 A continuación se nombra algunos de los datos clave que menciona la Secretaría del Convenio sobre la Diversidad Biológica (2020):
         
         img.img-b.mb-5(data-aos="zoom-in")(src='@/assets/curso/tema_1/img_16.png', alt='')
 
@@ -146,7 +146,7 @@
             p.mb-0 El enfoque por ecosistemas es una estrategia integrada para gestionar recursos es el marco de acción del Convenio.
       #collapse02.collapse(data-bs-parent='#MapaGroup01')
         .titulo-segundo(data-aos="fade-down-left")
-          #t_1_2.h2 1.2  Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD)
+          #t_2.h2 1.2  Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD)
 
         .row
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up-left")
@@ -159,7 +159,7 @@
 
       #collapse03.collapse(data-bs-parent='#MapaGroup01')
         .titulo-segundo
-          #t_1_3.h2 1.3 Foro de las Naciones Unidas Sobre Bosques (UNFF)
+          #t_3.h2 1.3 Foro de las Naciones Unidas sobre Bosques (UNFF)
 
         .row
           .col-lg-8.mb-4.mb-lg-0

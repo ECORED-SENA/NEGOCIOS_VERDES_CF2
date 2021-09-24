@@ -188,7 +188,7 @@
 
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.bor1.p-4
-            p.mb-0.text-center “El objetivo general del Instituto es el de fortalecer la capacidad tecnológica, científica, administrativa y financiera para producir la información hidrológica, meteorológica y ambiental de manera oportuna y con la calidad que requieran la ciudadanía, los sectores públicos y privados del país” (IDEA, 2020). 
+            p.mb-0.text-center “El objetivo general del Instituto es el de fortalecer la capacidad tecnológica, científica, administrativa y financiera para producir la información hidrológica, meteorológica y ambiental de manera oportuna y con la calidad que requieran la ciudadanía, los sectores públicos y privados del país” (IDEAM, 2020). 
 
     .row.justify-content-center.mb-5
       .col-md-6.mb-4.mb-md-0.bg06.p-2
@@ -244,9 +244,9 @@
 
     .row.justify-content-center
       .col-lg-10.mb-4.mb-lg-0
-        .bg04.p-4(data-aos="slide-up")
+        .bg04.p-4(data-aos="slide-left")
           p.mb-0 “Las Autoridades Ambientales Urbanas se encuentran presentes en los municipios, distritos o áreas metropolitanas cuya población urbana es igual o superior a un millón de habitantes. Están encargadas de promover y ejecutar programas y políticas nacionales, regionales y sectoriales en relación con el medio ambiente y los recursos naturales renovables, es decir cumplen con las funciones de las Corporaciones Autónomas Regionales en su jurisdicción”. (Observatorio Colombiano de Gobernanza del Agua OCGA, 2020).
-        img.img-a(data-aos="slide-down")(src='@/assets/curso/tema_2/img_12.png', alt='')
+        img.img-a(data-aos="slide-right")(src='@/assets/curso/tema_2/img_12.png', alt='')
 
     
 
