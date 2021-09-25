@@ -24,54 +24,23 @@
     #MapaGroup01(data-aos="zoom-in")
 
       .row.mb-5
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton1.ClasePripiaBtn.collapsed(data-bs-toggle='collapse' data-bs-target='#collapse01, #collapse01s' aria-expanded='false' aria-controls='#collapse01, #collapse01s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_3.svg', alt='')
-          img#collapse01s.img-a.collapse.show(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton2.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse02, #collapse02s' aria-expanded='false' aria-controls='#collapse02, #collapse02s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_4.svg', alt='')
-          img#collapse02s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton3.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse03, #collapse03s' aria-expanded='false' aria-controls='#collapse03, #collapse03s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_5.svg', alt='')
-          img#collapse03s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton4.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse04, #collapse04s' aria-expanded='false' aria-controls='#collapse04, #collapse04s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_6.svg', alt='')
-          img#collapse04s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton5.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse05, #collapse05s' aria-expanded='false' aria-controls='#collapse05, #collapse05s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_7.svg', alt='')
-          img#collapse05s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton6.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse06, #collapse06s' aria-expanded='false' aria-controls='#collapse06, #collapse06s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_8.svg', alt='')
-          img#collapse06s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton7.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse07, #collapse07s' aria-expanded='false' aria-controls='#collapse07, #collapse07s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_9.svg', alt='')
-          img#collapse07s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton8.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse08, #collapse08s' aria-expanded='false' aria-controls='#collapse08, #collapse08s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_10.svg', alt='')
-          img#collapse08s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton9.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse09, #collapse09s' aria-expanded='false' aria-controls='#collapse09, #collapse09s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_11.svg', alt='')
-          img#collapse09s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton10.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse10, #collapse10s' aria-expanded='false' aria-controls='#collapse10, #collapse10s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_12.svg', alt='')
-          img#collapse10s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0
-          button#boton11.ClasePripiaBtn(data-bs-toggle='collapse' data-bs-target='#collapse11, #collapse11s' aria-expanded='false' aria-controls='#collapse11, #collapse11s')
-            img.img-a.boton_wid(src='@/assets/curso/tema_1/img_13.svg', alt='')
-          img#collapse11s.img-a.collapse(src='@/assets/curso/tema_1/img_14.svg', alt='')(data-bs-parent='#MapaGroup01')
-        .col-lg-1.mb-3.mb-lg-0.top_img2.d-none.d-lg-block
-          img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='')
+        .col-3.col-md-2.col-lg-1.mb-3.mb-lg-0(v-for="num of 11")
+          button.ClasePripiaBtn.collapsed(
+            :id="`boton${num}`"
+            data-bs-toggle="collapse" 
+            :data-bs-target="`#collapse${num < 10 ? '0'+num : num}, #collapse${num < 10 ? '0'+num : num}s`" 
+            aria-expanded="true" 
+            :aria-controls="`#collapse${num < 10 ? '0'+num : num}, #collapse${num < 10 ? '0'+num : num}s`"
+          )
+            img.img-a.boton_wid(:src="require(`@/assets/curso/tema_1/img_${num + 2}.svg`)", alt="")
+          img.img-a.collapse(
+            :id="`collapse${num < 10 ? '0'+num : num}s`"
+            src="@/assets/curso/tema_1/img_14.svg" 
+            data-bs-parent="#MapaGroup01"
+            :class="{show: num == hash}"
+          )
 
-      #collapse01.collapse.show(data-bs-parent='#MapaGroup01')
+      #collapse01.collapse(:class="{show: hash ? hash == 1 : false}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_1.h2 1.1  Convenio de Diversidad Biológica o #[i Convention on Biological Diversity]
         .row.mb-5
@@ -144,7 +113,7 @@
         .row.justify-content-center
           .col-lg-10.d-block.d-lg-none.tarjeta--azul.p-3.bor_tarj.mt-3 
             p.mb-0 El enfoque por ecosistemas es una estrategia integrada para gestionar recursos es el marco de acción del Convenio.
-      #collapse02.collapse(data-bs-parent='#MapaGroup01')
+      #collapse02.collapse(:class="{show: hash == 2}" data-bs-parent='#MapaGroup01')
         .titulo-segundo(data-aos="fade-down-left")
           #t_2.h2 1.2  Convención de las Naciones Unidas de Lucha contra la Desertificación (UNCCD)
 
@@ -157,7 +126,7 @@
             .cajon.color-primario.p-4
               p Actualmente la UNCCD tiene 194 Partes (estados miembros de la ONU). Ha evolucionado para ser la piedra angular en la batalla para el desarrollo sostenible, aplicando un enfoque integrado consistente con la Agenda 21 al tiempo que fomenta la participación de la sociedad civil y la transferencia de la ciencia y la tecnología y su combinación eficaz con el conocimiento tradicional. Aunque la convención es un acuerdo entre países en vías de desarrollo y países desarrollados para asegurar la acción global para combatir la desertificación, también incluye compromisos nacionales específicos para acciones concretas.
 
-      #collapse03.collapse(data-bs-parent='#MapaGroup01')
+      #collapse03.collapse(:class="{show: hash == 3}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_3.h2 1.3 Foro de las Naciones Unidas sobre Bosques (UNFF)
 
@@ -172,7 +141,7 @@
           .col-lg-4.mb-4.mb-lg-0
             img.img-a(src='@/assets/curso/tema_1/img_18.png', alt='')
 
-      #collapse04.collapse(data-bs-parent='#MapaGroup01')
+      #collapse04.collapse(:class="{show: hash == 4}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_4.h2 1.4 Unión Internacional para la Protección de las Obtenciones Vegetales (UPOV)
 
@@ -186,7 +155,7 @@
               h3.mb-2 La misión de la UPOV es proporcionar y fomentar un sistema eficaz para la protección de las variedades vegetales, con miras al desarrollo de nuevas variedades vegetales para beneficio de la sociedad.
               span - UPOV, 2020.
 
-      #collapse05.collapse(data-bs-parent='#MapaGroup01')
+      #collapse05.collapse(:class="{show: hash == 5}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_5.h2 1.5 Convenio de Viena para la Protección de la Capa de Ozono
 
@@ -203,7 +172,7 @@
           .col-lg-4.mb-4.mb-lg-0
             img.img-a(src='@/assets/curso/tema_1/img_20.png', alt='')
 
-      #collapse06.collapse(data-bs-parent='#MapaGroup01')
+      #collapse06.collapse(:class="{show: hash == 6}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_6.h2 1.6 Convenio Marco Cambio Climático
 
@@ -216,7 +185,7 @@
               h1.fas.fa-quote-right.mb-0
               h3.mb-2 Esto debido a que el cambio climático afecta a la biodiversidad y a la desertificación. Cuanto más intenso sea el cambio climático y mayor sea su alcance, mayor será la pérdida de especies vegetales y animales, y las tierras secas y semiáridas en todo el mundo perderán vegetación y se deteriorarán.
               span - Minambiente, 2020.
-      #collapse07.collapse(data-bs-parent='#MapaGroup01')
+      #collapse07.collapse(:class="{show: hash == 7}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_7.h2 1.7 Protocolo de Kioto
 
@@ -229,7 +198,7 @@
               p “Su principio central es el de la «responsabilidad común pero diferenciada»” (Minambiente, 2020).
           .col-lg-4.mb-4.mb-lg-0
             img.img-a(src='@/assets/curso/tema_1/img_22.png', alt='')
-      #collapse08.collapse(data-bs-parent='#MapaGroup01')
+      #collapse08.collapse(:class="{show: hash == 8}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_8.h2 1.8 Convenio de Basilea sobre el Movimiento Transfronterizo de Desechos Peligrosos 
 
@@ -241,7 +210,7 @@
               p El Convenio de Basilea se basa en el control de los movimientos transfronterizos de desechos peligrosos y su eliminación.
 
             p El convenio fue aprobado el 22 de marzo de 1989 por la Conferencia de Plenipotenciarios en Basilea (Suiza), se compone de 175 Partes y su objetivo principal se centra en proteger la salud de las personas y el medio ambiente frente a los efectos perjudiciales de los desechos peligrosos.
-      #collapse09.collapse(data-bs-parent='#MapaGroup01')
+      #collapse09.collapse(:class="{show: hash == 9}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_9.h2 1.9 Convenio de Rotterdam 
 
@@ -257,7 +226,7 @@
           .col-lg-4.mb-4.mb-lg-0
             img.img-a(src='@/assets/curso/tema_1/img_24.png', alt='')
         
-      #collapse10.collapse(data-bs-parent='#MapaGroup01')
+      #collapse10.collapse(:class="{show: hash == 10}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_10.h2 1.10 Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes
         .row
@@ -269,7 +238,7 @@
               h1.fas.fa-quote-right.mb-0
               h3.mb-2 En este convenio, cada una de las partes desarrollan y aplican medidas para eliminar o reducir la producción, utilización, importación, exportación y emisión al medio ambiente de COPs e incluye disposiciones en cuanto al acceso a la información, la sensibilización y formación del público y la participación en el desarrollo de planes de aplicación.
               span - Minambiente, 2020.
-      #collapse11.collapse(data-bs-parent='#MapaGroup01')
+      #collapse11.collapse(:class="{show: hash == 11}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
           #t_1_11.h2 1.11 Tratado de Cooperación Amazónica – TCA
         .row
@@ -292,7 +261,7 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    hash: 0,
   }),
   watch: {
     $route(to) {
@@ -307,6 +276,15 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
+      if (this.$route.hash.length) {
+        const numero = this.$route.hash.split('_')[1]
+        this.hash = numero
+        setTimeout(() => {
+          document.getElementById('MapaGroup01').scrollIntoView({
+            behavior: 'smooth',
+          })
+        }, 500)
+      }
       this.$aosRefresh()
     })
   },
@@ -315,6 +293,7 @@ export default {
   },
   methods: {
     mostrarCollapse(id) {
+      console.log(document.querySelector('#boton' + id))
       document.querySelector('#boton' + id).click()
     },
   },
