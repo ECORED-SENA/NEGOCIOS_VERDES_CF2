@@ -39,6 +39,8 @@
             data-bs-parent="#MapaGroup01"
             :class="{show: num == hash}"
           )
+        .col-lg-1.mb-3.mb-lg-0.top_img2.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='')
 
       #collapse01.collapse(:class="{show: hash ? hash == 1 : false}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
