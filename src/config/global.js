@@ -31,7 +31,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Convenio de Diversidad Biológica o Convention on Biological Diversity',
+              'Convenio de Diversidad Biológica o <em>Convention on Biological Diversity</em>',
             hash: 't_1',
           },
           {

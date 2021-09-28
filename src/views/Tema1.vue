@@ -60,7 +60,7 @@
             .h5.mb-0 - Secretaría del Convenio sobre la Diversidad Biológica, 2020.
 
         .bg03.mb-5(data-aos="slide-right")
-          h4.text-center.text-white.mb-0 A continuación se nombra algunos de los datos clave que menciona la Secretaría del Convenio sobre la Diversidad Biológica (2020):
+          h4.text-center.text-white.mb-0 A continuación se nombran algunos de los datos clave que menciona la Secretaría del Convenio sobre la Diversidad Biológica (2020):
         
         img.img-b.mb-5(data-aos="zoom-in")(src='@/assets/curso/tema_1/img_16.png', alt='')
 

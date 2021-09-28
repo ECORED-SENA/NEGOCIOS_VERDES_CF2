@@ -6,7 +6,7 @@
     .titulo-principal(data-aos="zoom-in")
       .titulo-principal__numero
         span 4
-      h1 Mejoramiento continuo
+      h1 Plan de acción ambiental
 
     img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='')(data-aos="zoom-in-down")
 
