@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.346" height="84.346" viewBox="0 0 84.346 84.346">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_18224" data-name="Rectángulo 18224" width="56.385" height="53.626" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_62585" data-name="Grupo 62585" transform="translate(-285 -2943.999)">
+    <path id="shutterstock_793184827" d="M42.173,0A42.173,42.173,0,1,1,0,42.173,42.173,42.173,0,0,1,42.173,0Z" transform="translate(285 2943.999)" fill="#529ad9"/>
+    <g id="Grupo_61023" data-name="Grupo 61023" transform="translate(298.927 2959.253)">
+      <g id="Grupo_60659" data-name="Grupo 60659" transform="translate(0 0)">
+        <g id="Grupo_60658" data-name="Grupo 60658" clip-path="url(#clip-path)">
+          <line id="Línea_626" data-name="Línea 626" x2="55.832" transform="translate(0.552 42.1)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="Línea_627" data-name="Línea 627" x2="55.832" transform="translate(0.552 32.194)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="Línea_628" data-name="Línea 628" x2="55.832" transform="translate(0.552 22.288)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <line id="Línea_629" data-name="Línea 629" x2="55.832" transform="translate(0.552 12.382)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Trazado_129465" data-name="Trazado 129465" d="M0,0H55.832" transform="translate(0.552 2.476)" fill="none" stroke="#fff" stroke-width="0.5"/>
+        </g>
+      </g>
+      <path id="Trazado_129454" data-name="Trazado 129454" d="M0,0V53.626H56.16V52.448H1.235V0Z" transform="translate(0 0)" fill="#fff"/>
+      <rect id="Rectángulo_18225" data-name="Rectángulo 18225" width="9.379" height="28.394" transform="translate(4.345 23.837)" fill="#fff"/>
+      <rect id="Rectángulo_18226" data-name="Rectángulo 18226" width="9.38" height="38.01" transform="translate(16.944 14.22)" fill="#fff"/>
+      <rect id="Rectángulo_18227" data-name="Rectángulo 18227" width="9.378" height="32.624" transform="translate(29.29 19.607)" fill="#fff"/>
+      <rect id="Rectángulo_18228" data-name="Rectángulo 18228" width="9.379" height="49.351" transform="translate(41.635 2.879)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
