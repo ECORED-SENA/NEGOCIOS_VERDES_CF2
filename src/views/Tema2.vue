@@ -142,7 +142,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-5(data-aos="slide-left")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h4.text-regular Con respecto al recurso hídrico, esta autoridad se ocupa de otorgar los permisos de concesión de aguas superficiales y subterráneas, de prospección y exploración de aguas subterráneas y de la autorización de construcción en zonas que ocupen el cauce de una corriente o depósito de agua, así como hacer seguimiento a todas las licencias otorgadas.
+            h5.text-regular Con respecto al recurso hídrico, esta autoridad se ocupa de otorgar los permisos de concesión de aguas superficiales y subterráneas, de prospección y exploración de aguas subterráneas y de la autorización de construcción en zonas que ocupen el cauce de una corriente o depósito de agua, así como hacer seguimiento a todas las licencias otorgadas.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 - ANLA, 2020.
@@ -226,7 +226,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-5(data-aos="slide-right")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Las Corporaciones para el desarrollo sostenible, cumplen las funciones anteriormente descritas para  las CAR, se encargan del aprovechamiento sostenible y racional de los recursos naturales renovables y del medio ambiente en su respectiva jurisdicción, de la promoción de la investigación científica e innovación tecnológica, de dirigir el proceso de planificación regional de uso del suelo para mitigar y desactivar presiones de explotación inadecuada del territorio, y propiciar con la cooperación de entidades nacionales e internacionales la generación de tecnologías apropiadas para la utilización y la conservación de los recursos y del entorno de su área de influencia.
+            h5.text-regular Las Corporaciones para el desarrollo sostenible, cumplen las funciones anteriormente descritas para  las CAR, se encargan del aprovechamiento sostenible y racional de los recursos naturales renovables y del medio ambiente en su respectiva jurisdicción, de la promoción de la investigación científica e innovación tecnológica, de dirigir el proceso de planificación regional de uso del suelo para mitigar y desactivar presiones de explotación inadecuada del territorio, y propiciar con la cooperación de entidades nacionales e internacionales la generación de tecnologías apropiadas para la utilización y la conservación de los recursos y del entorno de su área de influencia.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 - Observatorio Colombiano de Gobernanza del Agua OCGA, 2020.

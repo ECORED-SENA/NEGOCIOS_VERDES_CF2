@@ -32,7 +32,7 @@
     .row.bg-color2.px-5
       .col-lg-12.mb-4.mb-lg-0.col_top1(data-aos="slide-left")
 
-        h4.tx_bg1 Herramientas
+        h2.tx_bg1.text-center.mb-4 Herramientas
 
         .row.justify-content-center
           .col-lg-4

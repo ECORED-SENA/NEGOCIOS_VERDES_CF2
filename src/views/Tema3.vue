@@ -10,11 +10,11 @@
 
     img.img-a(src='@/assets/curso/tema_3/img_1.png', alt='')(data-aos="zoom-in-down")
 
-    .row.p-5.justify-content-center(data-aos="zoom-in-down")
+    .row.p-5.justify-content-center.mb-0(data-aos="zoom-in-down")
       .col-lg-10.bg02.p-4
         p.mb-0 A propósito de la primera función del IDEAM mencionada anteriormente, en la cual nombran a los indicadores ambientales, es importante resaltar que estos son definidos como una medida que puede ser de origen físico, químico, biológico, social o económico, que permite evaluar toda aquella información ambiental disponible, con el fin de reflejar las condiciones en las que se encuentra el medio ambiente o un factor ambiental particular, en un tiempo y en un lugar determinados. 
 
-    .row.p-5.justify-content-center.mb-5
+    .row.p-2.justify-content-center.mb-5
       .col-lg-10
         p(data-aos="zoom-in-down") Asimismo, los indicadores ambientales pueden ser de tipo cualitativo los cuales se basan en las percepciones y observaciones y los cuantitativos se basan en parámetros que facilitan información de los fenómenos. Dentro de sus principales características se encuentran: 
 

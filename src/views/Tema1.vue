@@ -54,7 +54,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-5(data-aos="slide-left")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Este acuerdo cubre la diversidad biológica en todos los niveles: ecosistemas, especies y recursos genéticos. Cuenta con la Secretaría del Convenio sobre la Diversidad Biológica (SCDB), la cual tiene su sede en Montreal, Canadá y su principal función es ayudar a los Gobiernos a aplicar el CDB y sus programas de trabajo, organizar reuniones, redactar borradores de documentos, coordinar la labor del Convenio con la de otras organizaciones internacionales y recopilar, así como difundir información.
+            h5.text-regular Este acuerdo cubre la diversidad biológica en todos los niveles: ecosistemas, especies y recursos genéticos. Cuenta con la Secretaría del Convenio sobre la Diversidad Biológica (SCDB), la cual tiene su sede en Montreal, Canadá y su principal función es ayudar a los Gobiernos a aplicar el CDB y sus programas de trabajo, organizar reuniones, redactar borradores de documentos, coordinar la labor del Convenio con la de otras organizaciones internacionales y recopilar, así como difundir información.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 - Secretaría del Convenio sobre la Diversidad Biológica, 2020.
@@ -138,7 +138,7 @@
 
             .bloque-texto-c.color-secundario.p-4
               i.fas.fa-quote-right
-              h3.mb-2 Durante este foro, Colombia presentó sus contribuciones nacionales haciendo énfasis en la estrategia integral para la lucha contra la deforestación y programas en el marco de esta estrategia, como Visión Amazonía, Visión Pacífico, Bosques para la Paz, Cinturón Verde, entre otros.
+              h5.mb-2 Durante este foro, Colombia presentó sus contribuciones nacionales haciendo énfasis en la estrategia integral para la lucha contra la deforestación y programas en el marco de esta estrategia, como Visión Amazonía, Visión Pacífico, Bosques para la Paz, Cinturón Verde, entre otros.
               span - Cancillería de Colombia, 2018.
           .col-lg-4.mb-4.mb-lg-0
             img.img-a(src='@/assets/curso/tema_1/img_18.png', alt='')
@@ -154,7 +154,7 @@
             p.mb-3 La Unión Internacional para la Protección de las Obtenciones Vegetales (UPOV) es una organización intergubernamental con sede en Ginebra (Suiza) y se creó para lograr la Protección de las Obtenciones Vegetales. El Convenio se adoptó en París en 1961. 
             .bloque-texto-c.color-acento-botones.p-4
               h1.fas.fa-quote-right.mb-0
-              h3.mb-2 La misión de la UPOV es proporcionar y fomentar un sistema eficaz para la protección de las variedades vegetales, con miras al desarrollo de nuevas variedades vegetales para beneficio de la sociedad.
+              h5.mb-2 La misión de la UPOV es proporcionar y fomentar un sistema eficaz para la protección de las variedades vegetales, con miras al desarrollo de nuevas variedades vegetales para beneficio de la sociedad.
               span - UPOV, 2020.
 
       #collapse05.collapse(:class="{show: hash == 5}" data-bs-parent='#MapaGroup01')
@@ -185,7 +185,7 @@
             p.mb-3 Este convenio se desarrolló con el fin de mitigar las actividades que afecten el cambio climático global protegiendo dos aspectos principales: la biodiversidad biológica, de acuerdo con el Convenio sobre la Diversidad Biológica (CNUDB) y la desertificación por medio del Convención de Lucha contra la Desertificación (UNCCD).
             .bloque-texto-c.color-acento-botones.p-4
               h1.fas.fa-quote-right.mb-0
-              h3.mb-2 Esto debido a que el cambio climático afecta a la biodiversidad y a la desertificación. Cuanto más intenso sea el cambio climático y mayor sea su alcance, mayor será la pérdida de especies vegetales y animales, y las tierras secas y semiáridas en todo el mundo perderán vegetación y se deteriorarán.
+              h5.mb-2 Esto debido a que el cambio climático afecta a la biodiversidad y a la desertificación. Cuanto más intenso sea el cambio climático y mayor sea su alcance, mayor será la pérdida de especies vegetales y animales, y las tierras secas y semiáridas en todo el mundo perderán vegetación y se deteriorarán.
               span - Minambiente, 2020.
       #collapse07.collapse(:class="{show: hash == 7}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
@@ -221,7 +221,7 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                h3.text-regular El convenio de Rotterdam se enfoca en la gestión de productos químicos, entró en vigor en el 2004 y participan 73 miembros. Su función principal se centra en promover la responsabilidad compartida y los esfuerzos conjuntos de las Partes en la esfera del comercio internacional de ciertos productos químicos peligrosos a fin de proteger la salud humana y el medio ambiente frente a posibles daños y contribuir a su utilización ambientalmente racional, facilitando el intercambio de información acerca de sus características.
+                h5.text-regular El convenio de Rotterdam se enfoca en la gestión de productos químicos, entró en vigor en el 2004 y participan 73 miembros. Su función principal se centra en promover la responsabilidad compartida y los esfuerzos conjuntos de las Partes en la esfera del comercio internacional de ciertos productos químicos peligrosos a fin de proteger la salud humana y el medio ambiente frente a posibles daños y contribuir a su utilización ambientalmente racional, facilitando el intercambio de información acerca de sus características.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h5.mb-0 -  Secretaría del Convenio de Rotterdam, 2004.
@@ -238,7 +238,7 @@
             p.mb-3 El convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes entró en vigor en el 2004 y tiene como objetivo proteger la salud humana y el medio ambiente de Contaminantes Orgánicos Persistentes (COP).
             .bloque-texto-c.color-acento-botones.p-4
               h1.fas.fa-quote-right.mb-0
-              h3.mb-2 En este convenio, cada una de las partes desarrollan y aplican medidas para eliminar o reducir la producción, utilización, importación, exportación y emisión al medio ambiente de COPs e incluye disposiciones en cuanto al acceso a la información, la sensibilización y formación del público y la participación en el desarrollo de planes de aplicación.
+              h5.mb-2 En este convenio, cada una de las partes desarrollan y aplican medidas para eliminar o reducir la producción, utilización, importación, exportación y emisión al medio ambiente de COPs e incluye disposiciones en cuanto al acceso a la información, la sensibilización y formación del público y la participación en el desarrollo de planes de aplicación.
               span - Minambiente, 2020.
       #collapse11.collapse(:class="{show: hash == 11}" data-bs-parent='#MapaGroup01')
         .titulo-segundo
